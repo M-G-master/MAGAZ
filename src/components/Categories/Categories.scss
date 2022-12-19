@@ -1,0 +1,42 @@
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgba(242, 242, 242, 0.4);
+  border-radius: 30px;
+}
+
+.buttonCategories {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  display: inline;
+  margin-left: 10px;
+  cursor: pointer;
+  border: solid 1px gray;
+  border-radius: 3px 30px 3px 30px;
+  padding:  5px 20px 5px 20px;
+  background-color: rgba(239, 238, 238, 0.617);
+  font-weight: 600;
+  transition: 700ms ease;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.buttonCategories:hover {
+  background-color: rgb(188, 187, 187);
+  border: solid 1px rgb(188, 187, 187);
+  border-radius: 30px 3px 30px 3px;
+  box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.buttonCategories.active {
+  background-color: rgb(188, 187, 187);
+  border: solid 1px rgb(188, 187, 187);
+  border-radius: 30px 3px 30px 3px;
+  box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+}

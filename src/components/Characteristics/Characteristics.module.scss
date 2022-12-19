@@ -1,0 +1,47 @@
+.sort {
+  cursor: pointer;
+  margin-bottom: 30px;
+  width: 100%;
+  transition: transform 500ms ease;
+  
+  span {
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+    border: solid 1px gray;
+    border-radius: 3px 30px 3px 30px;
+    padding:  5px 20px 5px 20px;
+    background-color: rgba(239, 238, 238, 0.617);
+    font-weight: 600;
+    transition: 700ms ease;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);  
+  }
+ 
+  span:hover {
+    background-color: rgb(188, 187, 187);
+    border: solid 1px rgb(188, 187, 187);
+    border-radius: 30px 3px 30px 3px;
+    box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+  }
+}
+
+.sortLabel {
+  display: block;
+}
+
+.imgIcon {
+  width: 20px;
+  margin: 0;
+margin-top: 0;
+margin-right: 10px;
+}
+
+.active {
+  text-align: left;
+  margin-top: 30px;
+  font-weight: 600;
+}

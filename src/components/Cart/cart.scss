@@ -1,0 +1,176 @@
+.App-modal {
+  display: flex;
+  flex-direction: column;
+}
+
+.open-modal-btn {
+  background: #fff;
+  padding: 18px 25px;
+  border-radius: 20px;
+  font-weight: 500;
+  border: 0;
+  outline: none;
+  font-size: 22px;
+  cursor: pointer;
+  line-height: 23px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+  }
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.5s ease-in-out;
+}
+
+.modal {
+  display: flex;
+ position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-in-out;
+  z-index: 1000;
+  width: 800px;
+  align-items: center;
+  max-height: 600px;
+
+  img {
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 10px;
+    transition: transform 500ms ease;
+  }
+
+  img:hover {
+    color: gray;
+    transform: scale(1.3);
+  }
+
+  h1 {
+    width: 1850px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin: 10px;
+  }
+}
+
+.pOrders {
+  width: 100%;
+  font-weight: 600;
+  float: right;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.svgModal {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 24px;
+  width: 24px;
+  opacity: 0.3;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.overlay.animated {
+  opacity: 0;
+  visibility: hidden;
+
+  .modal {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-50%, -30%);
+    transition-delay: 0.2s;
+  }
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+
+    .modal {
+      opacity: 1;
+      visibility: visible;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.btnPlay {
+  z-index: 1000;
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  border: solid 1px gray;
+  border-radius: 3px 30px 3px 30px;
+  padding:  5px 20px 5px 20px;
+  background-color: rgba(239, 238, 238, 0.617);
+  font-weight: 600;
+  transition: 700ms ease;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.btnPlay:hover {
+  background-color: rgb(188, 187, 187);
+  border: solid 1px rgb(188, 187, 187);
+  border-radius: 30px 3px 30px 3px;
+  box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.btnPlay.active {
+ background-color: rgb(188, 187, 187);
+  border: solid 1px rgb(188, 187, 187);
+  border-radius: 30px 3px 30px 3px;
+  box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.windowShopCart {
+  width: 1200px;
+    height: auto;
+    border: solid 2px gray;
+    border-radius: 10px;
+    background-color: rgb(217, 212, 212);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.summaBox{
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse; 
+}
+
+.summa {
+    font-weight: 600;
+    float: right;
+    font-size: 20px;
+    margin: 10px;
+}

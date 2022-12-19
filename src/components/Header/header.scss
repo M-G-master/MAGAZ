@@ -1,0 +1,173 @@
+header {
+  position: relative;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 20px; 
+}
+
+.presentation {
+  margin: 50px 0;
+  background: url('../../image/fon1.jpg') no-repeat;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: multiply;
+  background-color: rgba(65, 55, 55, 0.556);
+  border-radius: 20px;
+  position: relative;
+}
+
+.presentation::after {
+ content: 'Найкращі товари для вашого будинку';
+ width: 350px;
+ position: absolute;
+ top:50px;
+ left:50px;
+ color: #fff;
+ font-weight: 600;
+ font-size: 40px;
+ font: bold;
+}
+
+.presentation::before {
+  content: 'За низькими цінами';
+  position: absolute;
+  top:200px;
+  left:50px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 15px;
+  font: bold;
+}
+
+.nav {
+  display: block;
+    float: right;
+    list-style: none;
+    margin-top: -17px;
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ .liButton {
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  border: solid 1px gray;
+  border-radius: 3px 30px 3px 30px;
+  padding:  5px 20px 5px 20px;
+  background-color: rgba(239, 238, 238, 0.617);
+  font-weight: 600;
+  transition: 700ms ease;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.liButton:hover {
+  background-color: rgb(188, 187, 187);
+  border: solid 1px rgb(188, 187, 187);
+  border-radius: 30px 3px 30px 3px;
+  box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.liButton.active {
+  background-color: rgb(188, 187, 187);
+  border: solid 1px rgb(188, 187, 187);
+  border-radius: 30px 3px 30px 3px;
+  box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+}
+}
+
+.iconButton {
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  border: solid 1px gray;
+  border-radius: 3px 30px 3px 30px;
+  padding:  5px 20px 5px 20px;
+  background-color: rgba(239, 238, 238, 0.617);
+  font-weight: 600;
+  transition: 700ms ease;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.iconButton:hover,
+.iconButton.active {
+  background-color: rgb(188, 187, 187);
+  border: solid 1px rgb(188, 187, 187);
+  border-radius: 30px 3px 30px 3px;
+  box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -10px -10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.shopCart {
+  margin-top: 10px;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 450px;
+  min-height: 100px;
+  background-color: red;
+}
+
+.modalWindow {
+  position: absolute;
+  float: right;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  z-index: 1000;
+
+}
+
+.nothing {
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  border: solid 1px gray;
+  border-radius: 3px 30px 3px 30px;
+  padding:  5px 20px 5px 20px;
+  background-color: rgba(239, 238, 238, 0.617);
+  font-weight: 600;
+  transition: 700ms ease;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+float: right;
+}
+
+.nothingCart {
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
