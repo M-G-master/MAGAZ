@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/MAGAZ/static/css/main.071b7fd6.css",
+    "main.js": "/MAGAZ/static/js/main.eedbe291.js",
+    "static/media/fon1.jpg": "/MAGAZ/static/media/fon1.95436dc219ae0932f478.jpg",
+    "index.html": "/MAGAZ/index.html",
+    "main.071b7fd6.css.map": "/MAGAZ/static/css/main.071b7fd6.css.map",
+    "main.eedbe291.js.map": "/MAGAZ/static/js/main.eedbe291.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.071b7fd6.css",
+    "static/js/main.eedbe291.js"
+  ]
+}
