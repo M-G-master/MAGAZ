@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Items from './components/Items';
 import productsList from './components/ProductsList';
+import Downloads from './components/Download';
 
 class App extends React.Component {
   constructor(props) {
@@ -26,6 +27,7 @@ class App extends React.Component {
         <Categories chooseCaterory={this.chooseCaterory} />
         <Items items={this.state.currentItems} onAdd={this.addToOrder} />
         <Footer />
+        <Downloads />
       </div>
     );
   }
