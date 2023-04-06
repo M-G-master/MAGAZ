@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.scss';
-import Downloads from './components/Download';
+import Downloads from '../Download';
 
 const Footer = () => {
   return (
